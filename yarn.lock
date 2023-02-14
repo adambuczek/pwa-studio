@@ -6835,10 +6835,10 @@ camelspace@~1.0.0:
   dependencies:
     change-case "^3.1.0"
 
-caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001251, caniuse-lite@^1.0.30001252, caniuse-lite@^1.0.30001274, caniuse-lite@^1.0.30001280, caniuse-lite@~1.0.30001335:
-  version "1.0.30001335"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001335.tgz#899254a0b70579e5a957c32dced79f0727c61f2a"
-  integrity sha512-ddP1Tgm7z2iIxu6QTtbZUv6HJxSaV/PZeSrWFZtbY4JZ69tOeNhBCl3HyRQgeNZKE5AOn1kpV7fhljigy0Ty3w==
+caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001251, caniuse-lite@^1.0.30001252, caniuse-lite@^1.0.30001274, caniuse-lite@^1.0.30001280:
+  version "1.0.30001452"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001452.tgz"
+  integrity sha512-Lkp0vFjMkBB3GTpLR8zk4NwW5EdRdnitwYJHDOOKIU85x4ckYCPQ+9WlVvSVClHxVReefkUMtWZH2l9KGlD51w==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -15393,6 +15393,11 @@ prepend-http@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
+
+prerender-node@~3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/prerender-node/-/prerender-node-3.5.0.tgz#2d2f6bb24977a48f16c10235cd444caaaea7f247"
+  integrity sha512-sx+ONyy3meEPmlixmeezcOSNg45Z9hzlUN5R6STPHzllWtf5EUBWh6lRV8/29IzPI+VWqIJ32EeV/5JbjvbSKg==
 
 prettier@~1.16.4:
   version "1.16.4"

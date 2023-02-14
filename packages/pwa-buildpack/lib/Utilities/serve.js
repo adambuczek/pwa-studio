@@ -28,6 +28,11 @@ module.exports = async function serve(dirname) {
         {
             env: process.env,
             before(app) {
+
+                if (process.env.PRERENDER_TOKEN) {
+                    app.use(require('prerender-node').set('prerenderToken', process.env.PRERENDER_TOKEN));
+                }
+
                 addImgOptMiddleware(app, {
                     ...config.section('imageOptimizing'),
                     ...config.section('imageService')
